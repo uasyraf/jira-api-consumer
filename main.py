@@ -116,7 +116,7 @@ def query_objects_script():
     output_dataframe = generate_output_dataframe(issues, projects, users)
     
     # get the second column object for the first row and print it
-    print(projects[0])
+    print(output_dataframe)
 
 if __name__ == "__main__":
     # Setup argparse
